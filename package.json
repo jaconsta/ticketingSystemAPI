@@ -1,0 +1,13 @@
+{
+  "name": "ticketingSystemAPI",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts":"{
+  },
+  "author": "Javier Constain",
+  "licence": "GPLV3",
+  "dependencies":{
+
+  }
+}
