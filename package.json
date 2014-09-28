@@ -3,11 +3,25 @@
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
-  "scripts":"{
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaconsta/ticketingSystemAPI"
   },
   "author": "Javier Constain",
   "licence": "GPLV3",
-  "dependencies":{
-
+  "homepage": "https://github.com/jaconsta/ticketingSystemAPI",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.21.4",
+    "supertest": "^0.13.0",
+    "supertest-as-promised": "^1.0.0"
   }
 }
